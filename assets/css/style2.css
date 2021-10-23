@@ -380,14 +380,160 @@ button{
 }
 
 .value3{
-    transform:rotate(-2deg);
-    margin-top: 80px;  
-    width: 105%;
-    height: 320px; 
-    background-color: red;
+    margin-top: 40px;
+    position: relative;    
+    width: 100%;
+    height: 640px;
+    background: #F7FAFE;
 }
 
+
 .section-value3{
+    display: flex;
+}
+
+.left-value3{
+    width: 504px;
+    margin: 120px 80px 40px 0px;
+    background-color: #EBEBEB;
+    height : 360px;
+}
+
+.right-value3{
+    width: 50%;
+    margin-top: 100px;
+    
+}
+.right-value3-header{
+    font-size: 64px;
+    font-weight: 700;
+    line-height : 88px;
+}
+.right-value3-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height : 22px;
+}
+
+.value4{
+    margin-top: 40px;
+    position: relative;    
+    width: 100%;
+    height: 640px;
+    background: #F7FAFE;
+}
+
+
+.section-value4{
+    display: flex;
+}
+
+.right-value4{
+    width: 50%;
+    margin: 120px 0px 40px 240px;
+    background-color: #EBEBEB;
+    height : 360px;
+}
+
+.left-value4{
+    width: 50%;
+    margin-top: 100px;
+    
+}
+.left-value4-header{
+    font-size: 64px;
+    font-weight: 700;
+    line-height : 88px;
+}
+.left-value4-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height : 22px;
+}
+
+.cta{
+    position: relative;
+    margin-top: 160px;
+    background-color: white;
     
     
+}
+.ornament-cta{
+    position: absolute;
+    left: 60px;
+    width: 95%;
+    top: -20px;
+    height: 432px;
+    z-index: 0;
+}
+
+.section-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7FAFE;
+    border-radius: 16px;
+    height: 480px;
+    z-index: 3;
+}
+
+.cta-header{
+    z-index: 5;
+    margin: 80px 208px 176px 104px;
+    font-size: 64px;
+    line-height: 88px;
+    text-align: center;
+    font-weight: 700;
+    width: 1024px;
+}
+
+.btn-cta{
+    width: 120px;
+    margin-top: -160px;
+}
+
+
+.footer{
+    margin-top: 160px;
+    background-color: #090660;
+    height: 536px;
+}
+.section-footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .section{
+    width: 300px;
+} */
+.header{
+    color: white;
+}
+
+.logo-footer{
+    /* margin-top: 100px; */
+}
+
+.footer-text{
+    width: 300px;
+    color: #E5E5E5;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.section ul li{
+    list-style: none;
+    padding: 12px 0px;
+    color: #E5E5E5;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.footer-web{
+    margin-top: 20px;
+    color: #E5E5E5;
+    font-size: 16px;
+    line-height: 32px;
 }
